@@ -610,16 +610,16 @@
 				<a href="http://www.olutolaobembe.com/timing-chapter-ii-building-a-successful-life/" title="TIMING &#8211; Chapter II, Building a Successful Life">TIMING &#8211; Chapter II, Building a Successful Life</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-iii/" title="Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) III">Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) III</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-iii/" title="Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) III">Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) III</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-ii/" title="Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) II">Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) II</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-ii/" title="Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) II">Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) II</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals/" title="Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S)">Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S)</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals/" title="Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S)">Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S)</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-examining-your-goals/" title="Building a Successful Life: Chapter 1 – EXAMINING YOUR GOAL(S)">Building a Successful Life: Chapter 1 – EXAMINING YOUR GOAL(S)</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-examining-your-goals/" title="Building a Successful Life: Chapter 1 ï¿½ EXAMINING YOUR GOAL(S)">Building a Successful Life: Chapter 1 ï¿½ EXAMINING YOUR GOAL(S)</a>
 						</li>
 					<li>
 				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-determining-your-goals/" title="Building a Successful Life: Chapter 1 &#8211; DETERMINING YOUR GOAL(S)">Building a Successful Life: Chapter 1 &#8211; DETERMINING YOUR GOAL(S)</a>
@@ -715,7 +715,7 @@ A website value Calculation for Website Worth</li>
 		<div class="col-full">
 
 			<div id="copyright" class="col-left">
-							<p>Olutola Michael Obembe &copy; 2013. All Rights Reserved.</p>
+							<p>Olutola Michael Obembe &copy; 2013-2020. All Rights Reserved.</p>
 						</div>
 	
 			<div id="credit" class="col-right">

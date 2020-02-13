@@ -11,7 +11,7 @@ if (isset($_POST['disc_1']))	{
 ##keep result in a session
 $_SESSION['disc']=$test;
 #send me a copy of the test
-$sendmailx = email("olutola.obembe@primaxng.com",$_SESSION['disc'][0],$_SESSION['disc'][1],$_SESSION['disc'][2],$_SESSION['disc'][3],$_SESSION['clientname']);
+$sendmailx = email("olutola.obembe@primaxng.com",$_SESSION['disc'][0],$_SESSION['disc'][1],$_SESSION['disc'][2],$_SESSION['disc'][3],@$_SESSION['clientname']);
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -219,16 +219,16 @@ $sendmailx = email("olutola.obembe@primaxng.com",$_SESSION['disc'][0],$_SESSION[
 				<a href="http://www.olutolaobembe.com/timing-chapter-ii-building-a-successful-life/" title="TIMING &#8211; Chapter II, Building a Successful Life">TIMING &#8211; Chapter II, Building a Successful Life</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-iii/" title="Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) III">Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) III</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-iii/" title="Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) III">Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) III</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-ii/" title="Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) II">Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S) II</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals-ii/" title="Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) II">Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S) II</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals/" title="Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S)">Building a Successful Life: Chapter 1 – SPECIFYING YOUR GOAL(S)</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-specifying-your-goals/" title="Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S)">Building a Successful Life: Chapter 1 ï¿½ SPECIFYING YOUR GOAL(S)</a>
 						</li>
 					<li>
-				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-examining-your-goals/" title="Building a Successful Life: Chapter 1 – EXAMINING YOUR GOAL(S)">Building a Successful Life: Chapter 1 – EXAMINING YOUR GOAL(S)</a>
+				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-examining-your-goals/" title="Building a Successful Life: Chapter 1 ï¿½ EXAMINING YOUR GOAL(S)">Building a Successful Life: Chapter 1 ï¿½ EXAMINING YOUR GOAL(S)</a>
 						</li>
 					<li>
 				<a href="http://www.olutolaobembe.com/building-a-successful-life-chapter-1-determining-your-goals/" title="Building a Successful Life: Chapter 1 &#8211; DETERMINING YOUR GOAL(S)">Building a Successful Life: Chapter 1 &#8211; DETERMINING YOUR GOAL(S)</a>

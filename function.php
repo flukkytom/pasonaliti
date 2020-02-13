@@ -10,9 +10,9 @@ function connect($host, $port, $user, $pass, $db) {
 	//merge hostname and port e.g localhost:3306
 	$host=$host.":".$port;
 	## Using the mysql_connect function to connect to DB..could also use mysql_pconnect 
-	$cnx = mysql_connect($host,$user,$pass);
+	$cnx = mysqli_connect($host,$user,$pass);
 	## selecting the required database for the application
-	$dbx =mysql_select_db($db);
+	$dbx = mysqli_select_db($cnx, $db);
 	##Check if db is connected
 	/*if ($cnx)
 		echo 'Database Connection  Possible';
@@ -29,9 +29,9 @@ function connect($host, $port, $user, $pass, $db) {
 ## MySQL Connection Parameters
 $db_server='localhost';
 $db_port = '3306';
-$db_name = 'olutola1_db';
-$db_user = 'olutola1_olutola';
-$db_password = 'QYBT69pKh4';
+$db_name = 'disc';
+$db_user = 'root';
+$db_password = '';
 
 ## Connect using the connect db function
 $conn = connect($db_server,$db_port,$db_user,$db_password,$db_name);
@@ -52,17 +52,26 @@ $conn = connect($db_server,$db_port,$db_user,$db_password,$db_name);
 		}
 		return $k;
 	}
+
+// function to return resource array
+function fetch_assoc($resource)	{
+
+	$row = @mysqli_fetch_assoc($resource);
+	return $row;
+}
+
 ## calculate score
 function calculate_disc()	{
 $d=0;$i=0;$s=0;$c=0;
 
 	for ($n=1; $n<=25; $n++)	{
 	
-	$style=$_POST["i".$n];
-	
-	$query=@mysql_query("SELECT disc from score_sheet where style='".$style."' and num='".$n."'");
-	$rdisc=@mysql_fetch_assoc($query);
-	##echo $n ."-" .$style."-".$rdisc['disc']."<br />";
+	$style=@$_POST["i".$n];
+
+	$sql = "SELECT disc from score_sheet where style='".$style."' and num='".$n."'";
+	$query=mysqli_query($GLOBALS['conn'],$sql);
+	$rdisc=fetch_assoc($query);
+	#echo $n ."-" .$style."-".$rdisc['disc']."<br />";
 	##calculate
 		if ($rdisc['disc']=="D")	{
 			$d=$d+1;
@@ -115,4 +124,7 @@ function displayresult($array)	{
 	return array($trait,$disc_letter);
 } ## display function
 
+function br() {
+    echo "<br />";
+}
 ?>
